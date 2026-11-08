@@ -1,0 +1,12 @@
+[package]
+name = "sigmaos_elfutils"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "SigmaOS elfutils component inspired by Linux Mint / Omarchy / Arch Linux."
+
+[dependencies]
+
+[lib]
+name = "sigmaos_elfutils"
+path = "src/lib.rs"
